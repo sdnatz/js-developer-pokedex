@@ -146,6 +146,49 @@
     border-radius: 1rem;
 }
 
+.pikachuDetail {
+    margin: 1rem;
+    border: #000 solid 3px;
+    border-radius: 25px;
+}
+
+.cabecalhoPikachu {
+    background-color: #f7cf2e;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalhoPikachu h1 {
+    margin: 1rem;
+}
+
+.cabecalhoPikachu h2 {
+    color: #494949;
+    font-size: 1rem;
+}
+
+.cabecalhoPikachu img {
+    width: 15rem;
+}
+
+.infoPikachu {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caractPikachu ul {
+    list-style-type: none;
+}
+
+.imagemEvolucoes img {
+    border-radius: 0px 0px 25px 25px;
+    width: 100%;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
